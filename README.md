@@ -8,5 +8,6 @@ This website is developed on ASP.NET using C#. A user can register as a seller o
   <li>Clone this rpeository by runnign "git clone repo_url"</li>
   <li>Open the "Website.sln" file in Visual Studio 2019</li>
   <li>Add the SQL database connection string in "*.aspx.cs" files</li>
+  <li>Create SQL Database (Databse Queries available in "DbSql.sql")</li>
   <li>Run the application</li>
 </ol>
