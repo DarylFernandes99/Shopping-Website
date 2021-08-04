@@ -83,7 +83,7 @@ namespace Website
             if (txtSecA.Text == secans)
             {
                 MailMessage Msg = new MailMessage();
-                Msg.From = new MailAddress("kirito260499@gmail.com");
+                Msg.From = new MailAddress("enter email id");
                 Msg.To.Add(emailid);
                 Msg.Subject = "Password Recovery";
                 Msg.Body = "Hi " + uname + " you're password is " + pass;
@@ -91,7 +91,7 @@ namespace Website
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
                 smtp.Port = 587;
-                smtp.Credentials = new System.Net.NetworkCredential("kirito260499@gmail.com", "kirito2604");
+                smtp.Credentials = new System.Net.NetworkCredential("enter email id", "enter password");
                 smtp.EnableSsl = true;
                 smtp.Send(Msg);
                 Msg = null;
